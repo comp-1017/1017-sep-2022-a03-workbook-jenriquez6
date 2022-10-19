@@ -1,0 +1,44 @@
+footer{
+    background-color: #333;
+    color:yellow
+}
+
+/* make a specific class with your css rule */
+
+/*.nav-background{
+    background-color: #ddd;
+}*/
+
+ul{
+    background-color: firebrick;
+}
+
+nav ul{
+    background-color: #ddd;
+}
+
+footer,
+
+footer a{
+    color:white
+}
+
+
+.li-border{
+    border-bottom: 1px solid black;
+}
+/* 
+Specificity: 
+value assigned to the selector depending on meeting 
+different criteria
+
+selector type
+element selector get a value of 1
+class selector get a value of 10
+id selector get a value of 100
+
+specificity decision are based on the value of the selector
+
+if the specificity of conflicting rules is the same then
+last coded rule wins
+*/
